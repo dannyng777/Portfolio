@@ -104,57 +104,57 @@
         <p class="section__subtitle"></p>
         <div class="portfolio__items">
             <div class="portfolio">
-                <a href="" class="portfolio__item">
+                <a class="portfolio__item"> <!-- add hef="" to add a link-->
                     <img src="pics/HTML.png" alt="" class="portfolio__img">
                 </a>
             </div>
             <div class="portfolio">
-                <a href="" class="portfolio__item">
+                <a class="portfolio__item">
                     <img src="pics/JSS.png" alt="" class="portfolio__img">
                 </a>
             </div>
              <div class="portfolio">
-                <a href="" class="portfolio__item">
+                <a class="portfolio__item">
                     <img src="pics/CSS.png" alt="" class="portfolio__img">
                 </a>
             </div>
             <div class="portfolio">
-                <a href="" class="portfolio__item">
+                <a class="portfolio__item">
                     <img src="pics/React.png" alt="" class="portfolio__img">
                 </a>
             </div>
             <div class="portfolio">
-                <a href="" class="portfolio__item">
+                <a class="portfolio__item">
                     <img src="pics/Redux.png" alt="" class="portfolio__img">
                 </a>
             </div>
             <div class="portfolio">
-                <a href="" class="portfolio__item">
+                <a class="portfolio__item">
                     <img src="pics/nodeJS.png" alt="" class="portfolio__img">
                 </a>
             </div>
             <div class="portfolio">
-                <a href="" class="portfolio__item">
+                <a class="portfolio__item">
                     <img src="pics/Bootstrap.png" alt="" class="portfolio__img">
                 </a>
             </div>
             <div class="portfolio">
-                <a href="" class="portfolio__item">
+                <a class="portfolio__item">
                     <img src="pics/Tailwind.png" alt="" class="portfolio__img">
                 </a>
             </div>
             <div class="portfolio">
-                <a href="" class="portfolio__item">
+                <a class="portfolio__item">
                     <img src="pics/github.png" alt="" class="portfolio__img">
                 </a>
             </div>
             <div class="portfolio">
-                <a href="" class="portfolio__item">
+                <a class="portfolio__item">
                     <img src="pics/mongoDB.png" alt="" class="portfolio__img">
                 </a>
             </div>
             <div class="portfolio">
-                <a href="" class="portfolio__item">
+                <a class="portfolio__item">
                     <img src="pics/PostgresSQL.png" alt="" class="portfolio__img">
                 </a>
             </div>
@@ -162,16 +162,47 @@
     </section>
         <!--Contact Me-->
     <footer id="contactMe">
-        <a href="" class="footer-link">dan.c.nguyen@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link fa fa-github" target="_blank" class="fa fa-github" style="font-size:24px"
+        <h2 class="section__title">Contact Me</h2>
+        <!-- <a href="" class="footer-link">dan.c.nguyen@gmail.com</a> -->
+        <form action="https://formsubmit.co/dan.c.nguyen7@gmail.com" method="POST">
+            <input type="text" name="name" required>
+            <input type="email" name="email" required>
+            <button type="submit">Send</button>
+       </form>
+
+       <ul class="social-list">
+            <!-- Modal for contact-->
+            <button type="button" class="btn btn-primary social-list__item" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="">Email Me</button>
+             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             <div class="modal-dialog">
+                 <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="https://formsubmit.co/dan.c.nguyen@gmail.com" method="POST">
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Email:</label>
+                                <input type="email" class="form-control" id="recipient-name" placeholder="Email Address" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea type="text" class="form-control" id="message-text" placeholder="Enter your message here." required ></textarea>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Send message</button>
+                            </div>
+                        </form>
+                    </div>
+                 </div>
+             </div>
+             </div>
+            <li class="social-list__item"><a class="btn social-list__link fa fa-github" target="_blank" class="fa fa-github" style="font-size:24px"
                 href="https://github.com/dannyng777"> Github</a></li>
-            <li class="social-list__item"><a class="social-list__link fa fa-linkedin" target="_blank" style="font-size:24px"
+            <li class="social-list__item"><a class="btn social-list__link fa fa-linkedin" target="_blank" style="font-size:24px"
                 href="https://www.linkedin.com/in/danh-nguyen-223625219/"> LinkedIn</a></li>
-            <li class="social-list__item"><a class="social-list__link"
-                href=""https://codepen.io">c</a></li>   
-            <li class="social-list__item"><a class="social-list__link"
-                href=""https://codepen.io">d</a></li>     
         </ul>
     </footer>
     <script src="index.js"></script>
