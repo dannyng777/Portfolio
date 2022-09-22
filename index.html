@@ -1,43 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Portfolio</title>
-</head>
-<nav class="navbar navbar-expand-lg nav-link">
+  </head>
+  <nav class="navbar navbar-expand-lg nav-link">
     <div class="container-fluid">
-        <a href="#home" class="navbar-brand">Danh Nguyen</a>
-        <button class="navbar-toggler ml-auto custom-toggler" 
-                type="button" 
-                data-bs-toggle="collapse" 
-                data-bs-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse nav-link" id="navbarSupportedContent">
+      <a href="#home" class="navbar-brand">Danh Nguyen</a>
+      <button
+        class="navbar-toggler ml-auto custom-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse nav-link"
+        id="navbarSupportedContent"
+      >
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-link">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#aboutMe">About me</a>
-            </li>
-            <li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#aboutMe"
+              >About me</a
+            >
+          </li>
+          <li class="nav-item">
             <a class="nav-link active" href="#services">Projects</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link active " href="#contactMe">Contact Me</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/danh-nguyen-223625219/" target="_blank" class="fa fa-linkedin" style="font-size:24px"></a>
-            </li>
-            <li>
-                <a href="https://github.com/dannyng777" target="_blank" class="fa fa-github" style="font-size:24px"></a>
-            </li>
-            <!-- <li class="nav-item dropdown">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contactMe">Contact Me</a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/danh-nguyen-223625219/"
+              target="_blank"
+              class="fa fa-linkedin"
+              style="font-size: 24px"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/dannyng777"
+              target="_blank"
+              class="fa fa-github"
+              style="font-size: 24px"
+            ></a>
+          </li>
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
             </a>
@@ -48,163 +77,252 @@
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
         </li> -->
-    </ul>
-    </div>
-</div>
-</nav>
-<body>
-<!-- <img id="background" background="/Portfolio/ales-nesetril-Im7lZjxeLhg-unsplash Medium.jpg"> -->
-    <!--Actual page-->
-        <!--Intro page-->
-    <section class="intro" id="">
-        <h1 class="section__title section__title--intro">
-            Hi, I am <strong>Danh Nguyen</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">Fullstack Developer</p>
-        <img src="pics/ProfilePic.JPG" alt="" class="intro__img">
-    </section>
-        <!--About Me-->
-    <section class="about-me" id="aboutMe">
-        <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__title--about"></p>
-        <div class="about-me__body">
-            <p>
-                Danh was previously a physical therapist assistant who aspired to become a full-stack software developer. As a PTA, he prioritized efficiency while maintaining effectiveness of treatment. Due to the nature of medical field, there is a high emphasis on teamwork in order to provide the best care necessary for his patients. He finished full stack bootcamp at DigitalCraft in 09/22, which strives to create innovated and competitive software developers. Danh considered himself a forever student who is eager to build on his software developer foundation. 
-            </p>
-            <p></p>
-        </div>             
-        <img src="pics/atlantaProfilePic.jpg" alt="" class="about-me__img"/> <!-- add About Me picture-->
-    </section>
-        <!--Services-->
-    <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I did</h2>
-        <div class="services">
-            <div class="service">
-                <h3 >Lorem ipsum dolor sit amet.</h3>
-                <p >Lorem ipsum dolor sit amet, libris molestie cum eu. Vix ut molestie delicata mandamus, oblique commune ut nec. Pri solum appareat insolens ex. Et numquam salutandi vim, mel quodsi integre te. In ius iuvaret moderatius quaerendum, quaeque accumsan no vel. No his postea facilis.
-                    Eu mei paulo utroque, mel cetero facilis euripidis ea. Fugit disputationi nec an, id sit quidam option. Putent noster molestiae cu mel.
-                <a href="#work" class="btn">Project 1</a>
-            </div> <!-- /project -->
-            <div class="service">
-                <h3 >Lorem ipsum dolor sit amet.</h3>
-                <p >Lorem ipsum dolor sit amet, libris molestie cum eu. Vix ut molestie delicata mandamus, oblique commune ut nec. Pri solum appareat insolens ex. Et numquam salutandi vim, mel quodsi integre te. In ius iuvaret moderatius quaerendum, quaeque accumsan no vel. No his postea facilis.
-                     disputationi nec an, id sit quidam option. Putent noster molestiae cu mel.
-                <a href="#work" class="btn">Project 2</a>
-            </div> <!-- /project -->
-            <div class="service">
-                <h3 >Lorem ipsum dolor sit amet.</h3>
-                <>Lorem ipsum dolor sit amet, libris molestie cum eu. Vix ut molestie delicata mandamus, oblique commune ut nec. Pri solum appareat insolens ex. Et numquam salutandi vim, mel quodsi integre te. In ius iuvaret moderatius quaerendum, quaeque accumsan no vel. No his postea facilis.
-                    Ius ad adversarium repudiandae. Eu mei paulo utroque, mel cetero facilis euripidis ea. Fugit disputationi nec an, id sit quidam option. Putent noster molestiae cu mel.
-                <a href="#work" class="btn">Project 3</a>
-            </div> <!-- /project -->
-        </div> <!--projects-->
-    </section> 
-    <section class="my-work" id="work">
-        <h2 class="section__title">My Skills</h2>
-        <p class="section__subtitle"></p>
-        <div class="portfolio__items">
-            <div class="portfolio">
-                <a class="portfolio__item"> <!-- add hef="" to add a link-->
-                    <img src="pics/HTML.png" alt="" class="portfolio__img">
-                </a>
-            </div>
-            <div class="portfolio">
-                <a class="portfolio__item">
-                    <img src="pics/JSS.png" alt="" class="portfolio__img">
-                </a>
-            </div>
-             <div class="portfolio">
-                <a class="portfolio__item">
-                    <img src="pics/CSS.png" alt="" class="portfolio__img">
-                </a>
-            </div>
-            <div class="portfolio">
-                <a class="portfolio__item">
-                    <img src="pics/React.png" alt="" class="portfolio__img">
-                </a>
-            </div>
-            <div class="portfolio">
-                <a class="portfolio__item">
-                    <img src="pics/Redux.png" alt="" class="portfolio__img">
-                </a>
-            </div>
-            <div class="portfolio">
-                <a class="portfolio__item">
-                    <img src="pics/nodeJS.png" alt="" class="portfolio__img">
-                </a>
-            </div>
-            <div class="portfolio">
-                <a class="portfolio__item">
-                    <img src="pics/Bootstrap.png" alt="" class="portfolio__img">
-                </a>
-            </div>
-            <div class="portfolio">
-                <a class="portfolio__item">
-                    <img src="pics/Tailwind.png" alt="" class="portfolio__img">
-                </a>
-            </div>
-            <div class="portfolio">
-                <a class="portfolio__item">
-                    <img src="pics/github.png" alt="" class="portfolio__img">
-                </a>
-            </div>
-            <div class="portfolio">
-                <a class="portfolio__item">
-                    <img src="pics/mongoDB.png" alt="" class="portfolio__img">
-                </a>
-            </div>
-            <div class="portfolio">
-                <a class="portfolio__item">
-                    <img src="pics/PostgresSQL.png" alt="" class="portfolio__img">
-                </a>
-            </div>
-        </div>
-    </section>
-        <!--Contact Me-->
-    <footer id="contactMe">
-        <h2 class="section__title">Contact Me</h2>
-        <!-- <a href="" class="footer-link">dan.c.nguyen@gmail.com</a> -->
-        <form action="https://formsubmit.co/dan.c.nguyen7@gmail.com" method="POST">
-            <input type="text" name="name" required>
-            <input type="email" name="email" required>
-            <button type="submit">Send</button>
-       </form>
-
-       <ul class="social-list">
-            <!-- Modal for contact-->
-            <button type="button" class="btn btn-primary social-list__item" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="">Email Me</button>
-             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-             <div class="modal-dialog">
-                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form action="https://formsubmit.co/el/gewewu" method="POST">
-                            <div class="mb-3">
-                                <label for="recipient-name" class="col-form-label">Email:</label>
-                                <input type="email" class="form-control" id="recipient-name" placeholder="Email Address" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="message-text" class="col-form-label">Message:</label>
-                                <textarea type="text" class="form-control" id="message-text" placeholder="Enter your message here." required ></textarea>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="submit" class="btn btn-primary">Send message</button>
-                            </div>
-                        </form>
-                    </div>
-                 </div>
-             </div>
-             </div>
-            <li class="social-list__item"><a class="btn social-list__link fa fa-github" target="_blank" class="fa fa-github" style="font-size:24px"
-                href="https://github.com/dannyng777"> Github</a></li>
-            <li class="social-list__item"><a class="btn social-list__link fa fa-linkedin" target="_blank" style="font-size:24px"
-                href="https://www.linkedin.com/in/danh-nguyen-223625219/"> LinkedIn</a></li>
         </ul>
+      </div>
+    </div>
+  </nav>
+  <body>
+    <!-- <img id="background" background="/Portfolio/ales-nesetril-Im7lZjxeLhg-unsplash Medium.jpg"> -->
+    <!--Actual page-->
+    <!--Intro page-->
+    <section class="intro" id="">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Danh Nguyen</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Fullstack Developer
+      </p>
+      <img src="pics/ProfilePic.JPG" alt="" class="intro__img" />
+    </section>
+    <!--About Me-->
+    <section class="about-me" id="aboutMe">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__title--about"></p>
+      <div class="about-me__body">
+        <p>
+          Danh was previously a physical therapist assistant who aspired to
+          become a full-stack software developer. As a PTA, he prioritized
+          efficiency while maintaining effectiveness of treatment. Due to the
+          nature of medical field, there is a high emphasis on teamwork in order
+          to provide the best care necessary for his patients. He finished full
+          stack bootcamp at DigitalCraft in 09/22, which strives to create
+          innovated and competitive software developers. Danh considered himself
+          a forever student who is eager to build on his software developer
+          foundation.
+        </p>
+        <p></p>
+      </div>
+      <img src="pics/atlantaProfilePic.jpg" alt="" class="about-me__img" />
+      <!-- add About Me picture-->
+    </section>
+    <!--Services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I did</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <p>
+            Lorem ipsum dolor sit amet, libris molestie cum eu. Vix ut molestie
+            delicata mandamus, oblique commune ut nec. Pri solum appareat
+            insolens ex. Et numquam salutandi vim, mel quodsi integre te. In ius
+            iuvaret moderatius quaerendum, quaeque accumsan no vel. No his
+            postea facilis. Eu mei paulo utroque, mel cetero facilis euripidis
+            ea. Fugit disputationi nec an, id sit quidam option. Putent noster
+            molestiae cu mel.
+            <a href="#work" class="btn">Project 1</a>
+          </p>
+        </div>
+
+        <!-- /project -->
+        <div class="service">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <p>
+            Lorem ipsum dolor sit amet, libris molestie cum eu. Vix ut molestie
+            delicata mandamus, oblique commune ut nec. Pri solum appareat
+            insolens ex. Et numquam salutandi vim, mel quodsi integre te. In ius
+            iuvaret moderatius quaerendum, quaeque accumsan no vel. No his
+            postea facilis. disputationi nec an, id sit quidam option. Putent
+            noster molestiae cu mel.
+            <a href="#work" class="btn">Project 2</a>
+          </p>
+        </div>
+
+        <!-- /project -->
+        <div class="service">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <>Lorem ipsum dolor sit amet, libris molestie cum eu. Vix ut molestie
+          delicata mandamus, oblique commune ut nec. Pri solum appareat insolens
+          ex. Et numquam salutandi vim, mel quodsi integre te. In ius iuvaret
+          moderatius quaerendum, quaeque accumsan no vel. No his postea facilis.
+          Ius ad adversarium repudiandae. Eu mei paulo utroque, mel cetero
+          facilis euripidis ea. Fugit disputationi nec an, id sit quidam option.
+          Putent noster molestiae cu mel.
+          <a href="#work" class="btn">Project 3</a>
+        </div>
+        <!-- /project -->
+      </div>
+      <!--projects-->
+    </section>
+    <section class="my-work" id="work">
+      <h2 class="section__title">My Skills</h2>
+      <p class="section__subtitle"></p>
+      <div class="portfolio__items">
+        <div class="portfolio">
+          <a class="portfolio__item">
+            <!-- add hef="" to add a link-->
+            <img src="pics/HTML.png" alt="" class="portfolio__img" />
+          </a>
+        </div>
+        <div class="portfolio">
+          <a class="portfolio__item">
+            <img src="pics/JSS.png" alt="" class="portfolio__img" />
+          </a>
+        </div>
+        <div class="portfolio">
+          <a class="portfolio__item">
+            <img src="pics/CSS.png" alt="" class="portfolio__img" />
+          </a>
+        </div>
+        <div class="portfolio">
+          <a class="portfolio__item">
+            <img src="pics/React.png" alt="" class="portfolio__img" />
+          </a>
+        </div>
+        <div class="portfolio">
+          <a class="portfolio__item">
+            <img src="pics/Redux.png" alt="" class="portfolio__img" />
+          </a>
+        </div>
+        <div class="portfolio">
+          <a class="portfolio__item">
+            <img src="pics/nodeJS.png" alt="" class="portfolio__img" />
+          </a>
+        </div>
+        <div class="portfolio">
+          <a class="portfolio__item">
+            <img src="pics/Bootstrap.png" alt="" class="portfolio__img" />
+          </a>
+        </div>
+        <div class="portfolio">
+          <a class="portfolio__item">
+            <img src="pics/Tailwind.png" alt="" class="portfolio__img" />
+          </a>
+        </div>
+        <div class="portfolio">
+          <a class="portfolio__item">
+            <img src="pics/github.png" alt="" class="portfolio__img" />
+          </a>
+        </div>
+        <div class="portfolio">
+          <a class="portfolio__item">
+            <img src="pics/mongoDB.png" alt="" class="portfolio__img" />
+          </a>
+        </div>
+        <div class="portfolio">
+          <a class="portfolio__item">
+            <img src="pics/PostgresSQL.png" alt="" class="portfolio__img" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--Contact Me-->
+    <footer id="contactMe">
+      <h2 class="section__title">Contact Me</h2>
+      <ul class="social-list">
+        <!-- Modal for contact-->
+        <button
+          type="button"
+          class="btn btn-primary social-list__item"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          data-bs-whatever=""
+        >
+          Email Me
+        </button>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form action="https://formsubmit.co/el/gewewu" method="POST">
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label"
+                      >Email:</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="recipient-name"
+                      placeholder="Email Address"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label"
+                      >Message:</label
+                    >
+                    <textarea
+                      type="text"
+                      class="form-control"
+                      id="message-text"
+                      placeholder="Enter your message here."
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                      Send message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <li class="social-list__item">
+          <a
+            class="btn social-list__link fa fa-github"
+            target="_blank"
+            class="fa fa-github"
+            style="font-size: 24px"
+            href="https://github.com/dannyng777"
+          >
+            Github</a
+          >
+        </li>
+        <li class="social-list__item">
+          <a
+            class="btn social-list__link fa fa-linkedin"
+            target="_blank"
+            style="font-size: 24px"
+            href="https://www.linkedin.com/in/danh-nguyen-223625219/"
+          >
+            LinkedIn</a
+          >
+        </li>
+      </ul>
     </footer>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
