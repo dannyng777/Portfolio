@@ -285,7 +285,7 @@ h3 {font-size: var(--fs-h3)}
 }
 
 .portfolio{
-    display: flex;
+    display: flexbox;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
 
@@ -345,7 +345,7 @@ h3 {font-size: var(--fs-h3)}
 .social-list__item{
     width: auto;
     height: auto;
-    margin: 0, 5em;
+    margin: 0, 5em,5em;
     text-align: center;
 }
 
