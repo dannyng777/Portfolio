@@ -201,7 +201,7 @@ h3 {font-size: var(--fs-h3)}
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(/anas-alshanti-feXpdV001o4-unsplash.jpg);
+    background-image: url(/pics/Screen\ Shot\ 2022-09-21\ at\ 9.00.55\ PM.png);
     background-size: cover;
     /* background-blend-mode: multiply ; */
     color: var(--clr-light);
@@ -285,25 +285,34 @@ h3 {font-size: var(--fs-h3)}
 
 .my-work{
     background-color: var(--clr-dark);
-    color: var(--clr-light);
+    color: var(--clr-text);
 }
 
-.porfolio{
-    display: grid;
+.portfolio__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+}
+
+.portfolio{
+    display: flex;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
 
-.porfolio__item{
+/* .portfolio__item{
     background: var(--clr-accent);
-}
+} */
 
-.porfolio__img{
+.portfolio__img{
+    width: 100pxS;
+    height: 100px;
+    object-fit: cover;
     transition: 
         transform 750ms cubic-bezier(.5,0,.5,1),
         opacity 250ms linear;
 }
 
-.porfolio__img:hover,
+.portfolio__img:hover,
 .portfolio__item:focus .porfolio__img{
     transform: scale(1.2);
     opacity: .75;
