@@ -64,11 +64,13 @@ strong { font-weight: var(--fw-bold);}
 /* Buttons */ 
 
 .btn{
-    display:inline-block;
-    padding: .5em 1.5em;
+    display:table;
+    padding-bottom: 2%;
     background:var(--clr-accent);
     color: var(--clr-dark);
     text-decoration: none;
+    margin: 1%;
+    text-align: center;
     cursor: pointer;
     font-size: .8rem;
     text-transform: uppercase;
@@ -215,13 +217,46 @@ h3 {font-size: var(--fs-h3)}
 }
 
 .service{
+    display: grid;
+    justify-content: center;
     max-width: 500px;
     margin: 0 auto;
+}
+
+.service-btn{
+    display:inline-block;
+    padding: .5em 1.5em;
+    color: var(--clr-dark);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
+    }
+.service-btn:hover{
+    transform: scale(1.1);
+}
+
+.repo-btn{
+    display:inline;
+    text-align: center;
+    padding: .5em .5em;
+    color: var(--clr-dark);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
 }
 
 @media (min-width:800px) {
     .services {
         display: flex;
+        justify-content: center;
         max-width: 1000px; 
         margin-left: auto;
         margin-right: auto;
@@ -334,19 +369,17 @@ h3 {font-size: var(--fs-h3)}
 }
 
 .social-list{
-    list-style:none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    height: 25px;
-    margin: 2em 0;
-    padding:0;
+    
 }
 
 .social-list__item{
-    width: auto;
-    height: auto;
-    margin: 0, 5em,5em;
-    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    margin: auto;
+    padding: 4px;;
 }
 
 .social-list__link{
@@ -358,14 +391,3 @@ h3 {font-size: var(--fs-h3)}
     background-color: var(--clr-dark);
     color: var(--clr-text);
 }
-/* .fa-linkedin {
-    background: #007bb5;
-    color: white;
-    margin: 5px;
-}
-
-.fa-github{
-    background:fixed;
-    color:black;
-    margin: 5px;
-} */
